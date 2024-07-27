@@ -1,0 +1,32 @@
+:root {
+    /*colores*/
+    --color-primario: #212922;
+    --color-secundario: #3e6259;
+    --color-terciario: #aef6c7;
+    --color-blanco: #ffffff;
+    --color-negro: #222222;
+    /*tamaños textos*/
+    --fs-title-h1: 32px;
+    --fs-title-h2: 24px;
+    --fs-title-h3: 20px;
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
