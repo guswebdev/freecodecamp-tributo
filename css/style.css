@@ -1,32 +1,122 @@
 :root {
-    /*colores*/
-    --color-primario: #212922;
-    --color-secundario: #3e6259;
-    --color-terciario: #aef6c7;
-    --color-blanco: #ffffff;
-    --color-negro: #222222;
-    /*tamaños textos*/
-    --fs-title-h1: 32px;
-    --fs-title-h2: 24px;
-    --fs-title-h3: 20px;
+  /*colores*/
+  --color-primario: #212922;
+  --color-secundario: #3e6259;
+  --color-terciario: #aef6c7;
+  --color-blanco: #ffffff;
+  --color-negro: #222222;
+  /*tamaños textos*/
+  --fs-title-h1: 32px;
+  --fs-title-h2: 24px;
+  --fs-title-h3: 20px;
 }
 
 *,
 ::after,
 ::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 16px;
-    font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: var(--color-negro);
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  position: relative;
+  text-indent: 1.5rem;
+}
+
+li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: var(--color-blanco);
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+main {
+  color: var(--color-blanco);
+}
+
+/*Header*/
+.header {
+  background-color: var(--color-primario);
+  color: var(--color-blanco);
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.title {
+  font-size: var(--fs-title-h1);
+  line-height: 2rem;
+}
+
+/*Figure*/
+.img-div {
+  background-color: var(--color-blanco);
+  color: var(--color-negro);
+}
+
+/*Section*/
+.tribute-info {
+  background-color: var(--color-primario);
+  padding: 1rem 0;
+}
+
+.tribute-info h2 {
+  font-size: var(--fs-title-h2);
+  text-align: center;
+}
+
+.tribute-info span {
+  font-weight: bold;
+  font-size: var(--fs-title-h3);
+}
+
+.tribute-info blockquote {
+  font-style: italic;
+}
+.tribute-info blockquote p {
+  padding-top: 1rem;
+}
+.tribute-info blockquote footer {
+  padding-bottom: 1rem;
+}
+/*Footer*/
+.footer {
+  font-size: var(--fs-title-h2);
+  font-weight: bold;
+}
+
+.footer a {
+  color: var(--color-terciario);
 }

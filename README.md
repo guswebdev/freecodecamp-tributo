@@ -1,7 +1,8 @@
-# freecodecamp-tributo
+# Construye una página de homenaje
 
-## Construye una página de homenaje
 ### Objetivo: construye una app que sea funcionalmente similar a [tribute-page](https://tribute-page.freecodecamp.rocks) . *No copies este proyecto de demostración.*
+
+---
 
 **Instrucciones:**
 
@@ -14,6 +15,8 @@
 7. Debes ver un elemento `a` con su `id="tribute-link"` correspondiente, que contiene información adicional sobre el tema de la página de homenaje. CONSEJO: Debes dar al elemento un atributo `target` y establecerlo como `_blank` para que tu enlace se abra en una nueva pestaña
 8. Tú `#image` debe usar las propiedades `max-width` y `height` para redimensionarse en función de la anchura de su elemento padre, sin sobrepasar su tamaño original
 9. Tu elemento `img` debe estar centrado con respecto al elemento que lo contiene
+
+---
 
 Completa las historias de usuario y pasa todas las pruebas a continuación para completar este proyecto. Dale tu propio estilo. ¡Feliz día programando!
 
